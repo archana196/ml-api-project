@@ -23,14 +23,16 @@ This project focuses on serving ML predictions through an API.
 
 ## 🚀 API Usage
 
+### Endpoint:
+/predict
+
 ### Input:
-```json
 {
   "feature1": value,
   "feature2": value
 }
 
+### Output:
 {
   "prediction": result
 }
-### Endpoint:
